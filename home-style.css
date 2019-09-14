@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+    max-width: 50rem;
+    margin: 0 auto; 
+}
+
+.heading {
+    background-color: lightblue !important;
+    padding: 30px;
+    text-align: center;
+}
+
+.top_name {
+    font-size: 4rem;
+}
+
+.nav {
+    background-color: lightcoral !important;
+    
+    
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
