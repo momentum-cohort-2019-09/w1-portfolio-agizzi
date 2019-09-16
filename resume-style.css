@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    font-family: 'Century Gothic', sans-serif;
+    max-width: 50rem;
+    margin: 0 auto; 
+}
+
+.heading {
+    /* background-color: lightblue !important; */
+    padding: 30px;
+    text-align: center;
+}
+
+.top_name {
+    font-size: 4rem;
+}
+
+.nav {
+    text-align: center;
+    /* background-color: lightcoral !important;  */
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.resume_start h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.resume_start h2 {
+    padding-left: 40px;
+}
+
+.resume_start h4 {
+    padding-bottom: 1rem;
+    padding-left: 40px
+}
+
+.objective {
+    padding-left: 40px;
+    padding-bottom: 1rem;
+}
+
+details {
+    padding-left: 40px;
+}
+
+details ul {
+    list-style-type: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+details ul li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

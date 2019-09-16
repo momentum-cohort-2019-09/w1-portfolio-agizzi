@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    font-family: 'Century Gothic', sans-serif;
+    max-width: 50rem;
+    margin: 0 auto; 
+}
+
+.heading {
+    /* background-color: lightblue !important; */
+    padding: 30px;
+    text-align: center;
+}
+
+.top_name {
+    font-size: 4rem;
+}
+
+.nav {
+    text-align: center;
+    /* background-color: lightcoral !important;  */
+}
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main_content {
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    
+
+}
+.project_name h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.project_box1 {
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.project_box1 h2 {
+    padding-top: 2rem;
+}
+.project_box1 a{
+    text-decoration: none;
+    color: magenta;
+}
+
+.project_box1 a:hover{
+    text-decoration: underline;
+}
+
+.image_garden {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.image_garden img {
+    border: 2px solid #959595;
+
+}
+
+.project_box2 {
+    /* padding-top: 2rem; */
+    /* background-color: lightgoldenrodyellow; */
+}
+
+.project_box2 h2 {
+    /* padding-top: 2rem; */
+}
+
+.image_dogs {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.image_dogs img {
+    border: 2px solid #959595;
+    object-fit: cover;
+}
+
+.click_for_code p a{
+    text-decoration: none;
+    color: magenta;
+}
+
+.click_for_code p a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+
+.project_name {
+    display: block
+}
+
+.main_content {
+    display:flex;
+    justify-content: space-between;
+}
+
+}
