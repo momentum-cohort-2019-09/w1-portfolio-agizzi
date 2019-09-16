@@ -17,8 +17,44 @@ body {
     text-align: center;
 }
 
-.top_name {
+.rainbow-letters {
     font-size: 4rem;
+}
+.a {
+    color: #0099ff; 
+}
+
+.l {
+    color: #ff66ff;
+}
+
+.e {
+    color: #ffcc00;
+}
+
+.x {
+    color: #00cc00;
+    
+}
+
+.g {
+    color: #aa80ff;
+}
+
+.i1 {
+    color: #ff5050;
+}
+
+.z1 {
+    color: #6699ff;
+}
+
+.z2 {
+    color: #ff7519;
+}
+
+.i2 {
+    color: #00e673;
 }
 
 .nav {
